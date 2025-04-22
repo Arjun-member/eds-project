@@ -3,10 +3,10 @@ export default function decorate(block) {
   rows.forEach((row, index) => {
     row.classList.add('testimonial-row');
     const text = row.querySelector('p');
-    if (text){
+    if (text) {
       if (index === 0) text.classList.add('testimonial-name');
       if (index === 1) text.classList.add('testimonial-title');
       if (index === 2) text.classList.add('testimonial-quote');
     }
-  })
+  });
 }
