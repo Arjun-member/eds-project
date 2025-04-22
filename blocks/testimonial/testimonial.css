@@ -1,0 +1,23 @@
+.testimonial {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-left: 5px solid #0055aa;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .testimonial-title {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .testimonial-quote {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
